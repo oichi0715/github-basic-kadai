@@ -1,0 +1,23 @@
+keika@MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/keika/Desktop/SAMURAI/SAMURAI課題/git_challenge/.git/
+ 
+keika@MacBook-Air git_challenge % git commit -m "変更1: Hello world 打ち込み"
+[main (root-commit) b3403bd] 変更1: Hello world 打ち込み
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+keika@MacBook-Air git_challenge % git add hello_world.txt
+keika@MacBook-Air git_challenge % git commit -m "変更2: こんにちは、世界　打ち込み"
+[main 92debcb] 変更2: こんにちは、世界　打ち込み
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+keika@MacBook-Air git_challenge % git log -- hello_world.txt
+commit 92debcb14bee0d74cf148356ed3b39655449b83c (HEAD -> main)
+Author: oichi0726 <dorakeika.89@gmail.com>
+Date:   Thu Dec 19 22:14:34 2024 +0900
+
+    変更2: こんにちは、世界　打ち込み
+
+commit b3403bd04fc0aab324637f138c43faa36a1694e6
+Author: oichi0726 <dorakeika.89@gmail.com>
+Date:   Thu Dec 19 22:12:57 2024 +0900
+
+    変更1: Hello world 打ち込み
